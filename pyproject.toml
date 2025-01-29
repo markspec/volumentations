@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "volumentations-3d"
-version = "1.0.4"
+version = "1.0.5"
 description = "Library for 3D augmentations"
 authors = [
     "Roman Sol (ZFTurbo)",
@@ -14,8 +14,8 @@ packages = [{include = "volumentations"}]
 
 [tool.poetry.dependencies]
 python = ">=3.9, <3.13"
-scikit-image = "^0.22.0"
-opencv-python = "^4.7.0.72"
+scikit-image = ">=0.22.0"
+opencv-python = ">=4.9.0"
 numpy = ">=2.0.0,<3.0.0"
 
 [tool.poetry.group.dev.dependencies]
